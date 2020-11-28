@@ -1,0 +1,158 @@
+/*Colors and fonts */
+
+body {
+	background: #EEEEEE;
+	color: rgb(50, 50, 50); 
+	font-family: 'Lora', serif;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+@import	url("components/banner.css")
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1	{
+	color: #0367AA;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+h2	{
+	color: rgb(100, 100, 100);
+	font-size: 24px;
+	font-weight: 500;
+
+}
+
+h3	{
+	color: rgb(100, 100, 100);
+	font-size: 18px;
+	font-weight: 500;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #0367AA;
+	font-weight: 500;
+	font-size: 16px;
+	}	
+
+a:hover {
+	color: yellow;
+}
+div {
+	background: white;
+	padding: 30px;
+	border:0px solid black;
+	margin:0px;
+	border-radius: 4px;
+	box-shadow: 0px 5px 30px rgba(60,60,120,0.1);
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 0px auto;
+}
+
+@media	(max-width: 500px) {
+	.container {
+		width: 450px
+	}
+}
+
+@media (max-width: 300px) {
+	.container {
+		width: 250px
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(30,30,30,0.1)
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding-left: 10px;
+}
+
+.img-flag {
+	border-radius: 50%;
+	width: 40px;
+	height: 45px;
+}
+
+.img-programs {
+	width: 40px;
+	height: 45px;
+}
+
+.img-hobby {
+	border-radius: 50%;
+	width: 40px;
+	height: 45px;
+}
+
+nav {
+	width: 100%;
+	height:100px;
+	line-height;
+}
+
+.navlist {
+
+}
+
+.navlist li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 100px;
+}
+
+.navlist li a  {
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin: 0px 0px 0px 20px;
+	text-align: center;
+	padding: 5 5px;
+}
+
+.btn-gray {
+	background-color: rgb(230,230,230);
+	color: #0367AA;
+	border-radius: 5px;
+	width: 100px;
+	height: 100px;
+}
+
+.btn-blue {
+	background-color: #0367AA;
+	color: black;
+	padding: 10px ;
+	border-radius: 0px;
+}
